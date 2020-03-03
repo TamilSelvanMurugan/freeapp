@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+
+  font-size: 10px;
+  background: #edeef0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 20px;
+}
+.logo {
+  font-size: 1cm;
+  font-weight: 700;
+  color: #f05136;
+}
+.nav-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #f05136;
+}
+header {
+  background: black;
+  color: white;
+  height: 450px;
+}
+header div p {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h3,
+h4 {
+  font-weight: 400;
+}
+h2 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+.link_but {
+  text-decoration: none;
+  text-align: center;
+  background: #f05136;
+  cursor: pointer;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
+  border-radius: 5%;
+}
+.link_but:hover {
+  color: white;
+}
+#bio {
+  display: flex;
+  align-items: center;
+}
+#bio p {
+  font-size: 1.5em;
+}
+#bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+#bio article * {
+  margin: 20px;
+}
+#bios {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+hr {
+  width: 400px;
+}
+#port {
+  background-color: black;
+  color: white;
+}
+#po {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#port,
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#skills ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  list-style-type: none;
+
+  margin: 10px 0;
+}
+#skills-cont {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#skills-cont div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#port h3 p hr {
+  margin-bottom: 10px;
+}
+#port div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+}
+#port div article {
+  background: white;
+  color: black;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+}
+#port div article p {
+  padding: 0 5px;
+}
+
+#con h3,
+form {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  line-height: 2em;
+  width: 350px;
+  border-radius: 3px;
+  border-color: black;
+}
